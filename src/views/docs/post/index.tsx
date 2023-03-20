@@ -1,4 +1,4 @@
-import InnerPreview from '@/Preview'
+import InnerPreview from '@/components/preview'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { getPost } from '../api'
