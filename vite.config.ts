@@ -7,6 +7,7 @@ import svgr from 'vite-plugin-svgr'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svgr(), react(), WindiCSS()],
+  base: './',
   resolve: {
     alias: {
       'node-fetch': 'isomorphic-fetch',
