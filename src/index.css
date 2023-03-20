@@ -1,0 +1,18 @@
+:root {
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  @apply full flex flex-col items-center justify-center;
+}
+
+svg.icon {
+  width: 20px;
+  height: 20px;
+}
