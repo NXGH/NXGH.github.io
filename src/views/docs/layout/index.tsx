@@ -1,5 +1,5 @@
-import { useState, useEffect, memo, useMemo, useCallback, useContext } from 'react'
-import BaseLayout from './base'
+import { memo } from 'react'
+import BaseLayout from './layout-wrapper'
 import MdxContent from './mdx-content'
 
 import Aside from './aside'

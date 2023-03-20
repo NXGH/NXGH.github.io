@@ -1,6 +1,6 @@
 // import Image from 'next/image'
 import Menu from './doc-list'
-import Nav from './nav'
+import Nav from './doc-nav'
 import Tabs from '@/components/tabs'
 import { PropsWithClassName } from '@/types'
 

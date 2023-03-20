@@ -1,5 +1,3 @@
-// import yaml from 'js-yaml'
-
 /** 以 header 分割 markdown */
 export function splitMarkdownBlockByHeader(markdown: string) {
   const lines = markdown.split(/\r?\n/g)
@@ -47,10 +45,6 @@ export function splitFileBySection(file: string) {
   return splitMarkdownBlockByHeader(file)
     .map(item => {
       if (item.every(i => i === '' || i === '\n')) return ''
-      // const isHeader = (str: string) => str.match(/^(#*?)\s/)?.[1].length || 0
-      // if (isHeader(item[0]) === 1) {
-      //   return `<section className="section" id="section-h1">\n${item.join('')}\n</section>\n`
-      // }
       return `<section className="section">\n${item.join('')}\n</section>\n`
     })
     .join('')

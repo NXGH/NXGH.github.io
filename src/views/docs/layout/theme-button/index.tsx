@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import type { PropsWithClassName } from 'src/types'
 import { ReactComponent as NightIcon } from '@/assets/icon/night.svg'
 import { ReactComponent as SunIcon } from '@/assets/icon/sun.svg'

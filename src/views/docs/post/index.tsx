@@ -18,9 +18,5 @@ export default function App() {
     return () => {}
   }, [id])
 
-  return (
-    <>
-      <InnerPreview source={post} />
-    </>
-  )
+  return <InnerPreview source={post} />
 }
